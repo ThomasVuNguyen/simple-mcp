@@ -10,7 +10,7 @@ import httpx
 class MCPCalculatorClient:
     def __init__(self, openai_model: str = "Qwen3-1.7B-RKLLM-v1.2.0"):
         self.openai_model = openai_model
-        self.api_url = "http://100.76.203.80:8080/v1/chat/completions"
+        self.api_url = "http://100.76.203.80:1306/v1/chat/completions"
         self.server_process = None
         self.tools = {}
         
